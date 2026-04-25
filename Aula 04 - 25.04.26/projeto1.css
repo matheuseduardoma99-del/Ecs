@@ -1,0 +1,170 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: hsl(26, 53%, 34%);
+    color: #f5ede0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  
+  .pagina {
+    max-width: 720px;
+    margin:0 auto;
+    padding: 3rem 1.5rem 5rem;
+  }
+  
+  /* HEADER */
+  header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid #7a5c3a;
+    margin-bottom: 2.5rem;
+  }
+  
+  header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #e8c89a;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p.subtitulo {
+    background: #d1842b;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .foto {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .foto img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #7a5c3a;
+  }
+  
+  .info-lista {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  
+  .info-lista li {
+    background-color: #3d2a1a;
+    border: 1px solid #7a5c3a;
+    border-radius: 999px;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+    color: #e8c89a;
+    letter-spacing: 0.05em;
+  }
+  .passagem {
+    margin-bottom: 3rem;
+  }
+  
+  .passagem h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e8c89a;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #4a3321;
+    letter-spacing: 0.06em;
+  }
+  
+  blockquote {
+    background-color: #3d2a1a;
+    border-left: 3px solid #c49a5a;
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem 1.75rem;
+    color: #d9c4aa;
+    font-size: 0.95rem;
+    line-height: 1.85;
+  }
+  
+  blockquote p {
+    margin-top: 1.2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid #4a3321;
+  }
+  
+  .fala-jesus {
+    display: block;
+    background-color:#7a5c3a;
+    border-left: 2px solid #c49a5a;
+    padding: 0.35rem 0.9rem;
+    margin:0 auto;
+    border-radius: 0 4px 4px 0;
+    color: #dda74f;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.05rem;
+  }
+  
+  .fala-normal {
+    display: block;
+    margin: 0 auto;
+    color: #b09070;
+  }
+  
+  .versiculo-destaque {
+    display: block;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: #e8c89a;
+    margin: 1.25rem 0;
+    letter-spacing: 0.03em;
+  }
+  
+  .passos {
+    background-color: rgba(235, 144, 8, 0.226);
+    border: 1px solid #7a5c3a;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  
+  .passos p {
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #d1a466;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 2;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #4a3321;
+    margin: 0 auto;
+  }
+  
+  /* RESPONSIVO */
+  @media (max-width: 480px) {
+    header h1 { font-size: 2rem; }
+    .foto img { width: 180px; height: 180px; }
+  }

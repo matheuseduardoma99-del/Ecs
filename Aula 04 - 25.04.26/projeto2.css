@@ -1,0 +1,70 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: hsl(0, 0%, 100%);
+    color: #ff9d00;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  .pagina {
+    max-width: 720px;
+    margin:0 auto;
+    padding: 3rem 1.5rem 5rem;
+  }
+
+  header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid #7a5c3a;
+    margin-bottom: 2.5rem;
+  }
+  
+  header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #ee1010;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+  }
+  header p{
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #f79307;
+  }
+
+  .hamburguer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:center;
+    margin-bottom: 2.5rem;
+    
+  }
+  .hamburguer img {
+    background-color: #7a5c3a;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 3px solid #ec0e0e;
+  }
+
+  .hamburguer p {
+background-color: rgba(255, 255, 0, 0.9);
+    color: #ee1010;
+    text-align: center;
+  }
+
+  .carrosel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 32px;
+  }
